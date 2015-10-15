@@ -28,10 +28,6 @@ router.get('/services', function (req, res, next) {
     res.render('services');
 });
 
-/* GET Projects page */
-router.get('/Projects', function (req, res, next) {
-    res.render('Projects');
-});
 
 
 module.exports = router;
